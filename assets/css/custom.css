@@ -1,0 +1,45 @@
+/* Estilos para pantallas grandes */
+@media only screen and (min-width: 768px) {
+    #calendar {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+  
+  /* Estilos para pantallas medianas */
+  @media only screen and (max-width: 767px) and (min-width: 576px) {
+    #calendar {
+      width: 100%;
+      margin: 0 auto;
+    }
+    .fc .fc-toolbar {
+      flex-direction: column;
+    }
+  }
+  
+  /* Estilos para pantallas pequeñas */
+  @media only screen and (max-width: 575px) {
+    #calendar {
+      width: 100%;
+      margin: 0;
+    }
+    .fc .fc-toolbar {
+      flex-direction: column;
+    }
+    .fc-toolbar-title {
+      font-size: 1.2rem; /* Ajusta el tamaño del título */
+    }
+    .fc-toolbar-button {
+      font-size: 1rem; /* Ajusta el tamaño de los botones */
+    }
+  }
+
+  .bg-ligth-background{
+    background-color: #ebebeb;
+    margin-left: 5px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  .bg-ligth-background a{
+    color: #A89C62 !important;
+  }
